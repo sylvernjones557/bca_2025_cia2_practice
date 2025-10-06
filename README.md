@@ -36,6 +36,11 @@ Below is a description of each file and how to use them.
   - Accepts two numbers and an operation (addition, subtraction, product, quotient) and displays the result.
   - Includes basic protection for division by zero and sanitizes output when printing results.
 
+- `inherit.php`
+  - Small demonstration of PHP class inheritance.
+  - Defines a base `Vehicle` class and a `Car` subclass (which adds `displayInfo()`).
+  - The script instantiates `Car` and calls `displayInfo()` to show how subclass methods work.
+
 - `files.php`
   - File upload demo. Accepts an image file, reads its contents and displays the uploaded image inline using a data URL (base64 encoded).
   - Note: This example does not permanently store the file on disk — it reads the uploaded file and displays it immediately.
