@@ -36,11 +36,7 @@ Below is a description of each file and how to use them.
   - Accepts two numbers and an operation (addition, subtraction, product, quotient) and displays the result.
   - Includes basic protection for division by zero and sanitizes output when printing results.
 
-- `sam1.html`
-  - A plain HTML + JavaScript implementation of the calculator (client-side).
-  - No CSS or frameworks used. Great for quick demos without server round-trips.
-
-- `sam2.php`
+- `files.php`
   - File upload demo. Accepts an image file, reads its contents and displays the uploaded image inline using a data URL (base64 encoded).
   - Note: This example does not permanently store the file on disk — it reads the uploaded file and displays it immediately.
 
@@ -76,12 +72,6 @@ Below is a description of each file and how to use them.
 
    - http://localhost/bca_cia2_practice/insertDML.php
    - http://localhost/bca_cia2_practice/update.php
-   - http://localhost/bca_cia2_practice/delete.php
-   - http://localhost/bca_cia2_practice/functions_calculator.php
-   - http://localhost/bca_cia2_practice/sam1.html
-   - http://localhost/bca_cia2_practice/sam2.php
-   - http://localhost/bca_cia2_practice/cookies.php
-   - http://localhost/bca_cia2_practice/session.php
 
 ## Security & Notes
 
