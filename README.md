@@ -41,6 +41,11 @@ Below is a description of each file and how to use them.
   - Defines a base `Vehicle` class and a `Car` subclass (which adds `displayInfo()`).
   - The script instantiates `Car` and calls `displayInfo()` to show how subclass methods work.
 
+- `age.php`
+  - Simple age calculator that accepts a date input (date of birth) and computes the age in years using PHP's `DateTime` and `diff()`.
+  - Input: HTML date field named `dates` (format YYYY-MM-DD). Output: displays "Your age is: <n>" on the page.
+  - Note: This is a client-submitted value; in production you may want to validate and sanitize input and handle edge cases (time zones, missing values).
+
 - `files.php`
   - File upload demo. Accepts an image file, reads its contents and displays the uploaded image inline using a data URL (base64 encoded).
   - Note: This example does not permanently store the file on disk — it reads the uploaded file and displays it immediately.
